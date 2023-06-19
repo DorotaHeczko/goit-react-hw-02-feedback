@@ -2,7 +2,10 @@ import PropTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
-  <>
+  <> 
+    
+
+   {/* // mapowanie elem tablicy */}
     {options.map((name, index) => {
      const capitalized = name.charAt(0).toUpperCase() + name.slice(1);
 
